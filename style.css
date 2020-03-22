@@ -1,7 +1,33 @@
 #menu
 {
+	resize: none;
 	position: fixed;
 	width: 100%;
 	height: 35px;
-	background: white;
+}
+
+button{
+	resize: none;
+	background-image: url(puss-in-boots-cute-small.jpg);
+	background-size: cover;
+	width: 105px;
+	height: 70px;
+	display: inline-block;
+	text-align: center;
+	padding-top: 52px;
+	color: white;
+}
+
+body{
+	resize: none;
+	background-image: url(puss-in-boots-Background.jpg);
+	background-position-y: -250px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+li{
+	resize: none;
+	display: inline; 
 }
