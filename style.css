@@ -28,6 +28,7 @@ body{
 }
 
 li.spec{
+	padding-left: 10px;
 	resize: none;
 	display: inline; 
 }
