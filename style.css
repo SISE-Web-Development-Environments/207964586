@@ -6,7 +6,7 @@
 	height: 35px;
 }
 
-button{
+button.men{
 	resize: none;
 	background-image: url(puss-in-boots-cute-small.jpg);
 	background-size: cover;
@@ -27,7 +27,49 @@ body{
 	background-attachment: fixed;
 }
 
-li{
+li.spec{
 	resize: none;
 	display: inline; 
+}
+
+input[type=Etext], textarea {
+	width: 25%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 4px;
+	margin-bottom: 16px;
+	resize: vertical;
+}
+
+input[type=text], textarea {
+	width: 70%;
+	height:200px;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 4px;
+	margin-bottom: 16px;
+	resize: vertical;
+}
+  
+  input[type=submit] {
+	background-color: rgb(86, 76, 175);
+	color: white;
+	padding: 12px 15px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+  }
+
+input[type=submit]:hover {
+	background-color: #45a049;
+  }
+
+.container {
+	border-radius: 3px;
+	background-blend-mode: darken;
+	padding: 15px;
 }
